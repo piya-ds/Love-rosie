@@ -18,7 +18,51 @@
     background-color: #525252;
 }
 
+.bg-color-three-reasons{
+    background-color: #fff;
+}
+
+/* --------------------------------general text padding margin ------------------ */
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.block-inline{
+    display: inline-block;
+    color: #fafafa;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 /* --------------------------------heading------------------ */
+
+
 header {
     margin: 0;
 }
@@ -103,6 +147,62 @@ header {
     letter-spacing: 2px;
 }
 
+
+
+/* --------------------------------hover------------------ */
+
 .hvr-sweep-to-bottom:before {
     background: rgba(0,0,0,0.2);
+    height: 120px;
+}
+
+/* --------------------------------footer------------------ */
+footer{
+    
+    background-color: #525252;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-link{
+    padding-left: 5px;
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-link i:hover {
+    color: #e84610;
+}
+
+.social-link-list{
+    padding-bottom: 15px;
+}
+
+.social-link-list li a i{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 12px 0;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-link-list li a i:hover{
+    background: #e84610;
+}
+
+#footer-details{
+    padding: 20px;
 }
